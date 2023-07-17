@@ -1,0 +1,11 @@
+break,continue statements dont work on forech 
+THIS KEYEWORD
+This” keyword refers to an object that is executing the current piece of code. It references the object that is executing the current function. If the function being referenced is a regular function, “this” references the global object. If the function that is being referenced is a method in an object, “this” references the object itself.
+115,97,82,151
+
+''''sort method''''
+console.log(movements.sort(function(a,b){
+   if(a>b) return 1
+   if(a<b) return -1
+}));
+
